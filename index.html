@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Notes</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="/CSS/Responsive CSS/first.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+
+            <img src="CSS/img/logo.jpg" alt="" class="logo">
+
+            <ul>
+                <li class="child"><a href="#">Home </a></li>
+                <li class="child"><a href="#">Notes</a></li>
+                <li class="child"><a href="#">About us</a> </li>
+            </ul>
+            <input type="search" name="search" id="searchbox" class="searchbox" placeholder="Search Here!">
+
+            <!-- <input type="button" id="srh" value="Search"> -->
+        </nav>
+    </header>
+
+
+    <section>
+        <main class="first-cont">
+            <h2>🙏🏻 Welcome to Magic Notes! 🙏🏻</h2>
+            <div class="sub-cont">
+                <h3> ✍🏽 Create Your Notes!✍🏽</h3>
+                <p><input type="text" placeholder="Enter Title" id="addTitle"></p>
+                <div>
+                    <textarea name="textarea" class="textarea" id="addTxt" cols="30" rows="10" placeholder="Type Your Notes!!!"></textarea>
+
+
+                </div>
+                <a> <input type="submit" id="addBtn" class="btn" value="Submit form"></a>
+            </div>
+        </main>
+        <div class="second-cont">
+
+            <hr>
+            <p style="font-size: 34px;">✍🏽<a class="ynote">  Your Notes :-</a></p>
+            <hr>
+
+            <div class=" card-cont " id="cont"> </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            www.magicnotes.com All Rights Reserved &copy;
+        </div>
+    </footer>
+    <script src=" JS/main.js "></script>
+
+</body>
+
+</html>

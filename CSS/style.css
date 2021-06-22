@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(255 61 16);
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    padding: 0px 19px;
+    border: 2px solid black;
+    margin: 0px 02px 0 54px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #ffffff73;
+}
+
+header nav ul :hover {
+    background-color: white;
+    color: black;
+}
+
+header nav ul :active {
+    transition: margin-right 2s ease-in-out;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.logo {
+    height: 50px;
+    padding: 24px;
+    cursor: pointer;
+    border-radius: 56px;
+}
+
+.searchbox {
+    position: relative;
+    right: 33px;
+    height: 35px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 13px 11px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.first-cont {
+    background-color: #ffffff;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/537cad0be4b02cb9fe04985f/1438704698248-TWKUDI932Y2VXOXNAUCJ/ke17ZwdGBToddI8pDm48kDAv91l_EVpAtt3T82Wm1m9Zw-zPPgdn4jUwVcJE1ZvWEtT5uBSRWt4vQZAgTJucoTqqXjS3CfNDSuuf31e0tVGRdKQdAvYPFeoNHcl0B9NbYhRtIalXltUl4wqyICqU51hQUjdct07RUVzezzWpvVo/Writing.jpg?format=500w);
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-position: initial;
+}
+
+.first-cont h2 {
+    font-size: 53px;
+    margin-top: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 4px 2px 6px #6588f2;
+    color: #000;
+}
+
+.sub-cont {
+    /* background-color: #fff; */
+    /* border: 2px solid black; */
+    padding: 50px 80px;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    align-items: center;
+    color: white;
+}
+
+.sub-cont h3 {
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 40px;
+    font-size: 33px;
+    font-weight: 600;
+    border-radius: 125px;
+    padding: 5px 75px;
+    width: 45%;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+
+.sub-cont p input {
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 125px;
+    padding: 10px 75px;
+    width: 45%;
+    text-align: center;
+    color: black;
+    /* background: transparent; */
+    background-color: #ffffff73;
+    outline: none;
+    position: relative;
+    left: 65px;
+}
+
+.sub-cont div textarea {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    color: black;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    /* background: transparent; */
+    background-color: #ffffff4a;
+    width: 299px;
+    height: 123px;
+    color: rgb(0, 0, 0);
+}
+
+.btn {
+    height: 41px;
+    border: 1px solid;
+    padding: 4px 20px;
+    border-radius: 50px;
+    margin-top: 16px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+    outline: none;
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: black;
+    color: wheat;
+}
+
+section main div a :hover {
+    transform: translateY(3px);
+}
+
+.second-cont {
+    background-image: url(https://cdn.pixabay.com/photo/2016/12/22/15/50/list-1925752__340.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+.ynote {
+    font-size: 34px;
+    text-decoration: underline;
+}
+
+.card-cont {
+    display: grid;
+    border: 1px solid rgb(0, 0, 0);
+    grid-template-columns: auto auto auto auto;
+    padding: 44px;
+    row-gap: 15px;
+    column-gap: 25px;
+    border-radius: 10px;
+}
+
+.card {
+    border: 2px solid red;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 5px;
+    overflow: auto;
+    background-color: #ffffff4a;
+}
+
+.del {
+    padding: 2px 10px;
+    margin-top: 14px;
+    font-size: 17px;
+    border-radius: 11px;
+    border: 2px solid;
+}
+
+.cardb {
+    border: 1px solid black;
+    padding: 8px 16px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+}

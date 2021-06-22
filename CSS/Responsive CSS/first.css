@@ -1,0 +1,135 @@
+                        @media only screen and (max-width:1260px) and (min-width: 821px) {
+                            .first-cont h2 {
+                                margin-top: 80px;
+                            }
+                            .sub-cont h3 {
+                                width: 75%;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:1100px) and (min-width: 821px) {
+                            .card-cont {
+                                grid-template-columns: auto auto;
+                            }
+                            .second-cont {
+                                background-repeat: repeat;
+                            }
+                            .searchbox {
+                                right: 10px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:820px) and (min-width: 741px) {
+                            .card-cont {
+                                grid-template-columns: auto auto;
+                            }
+                            .second-cont {
+                                background-repeat: repeat;
+                                margin-top: 130px;
+                            }
+                            .first-cont h2 {
+                                margin-top: 190px;
+                            }
+                            header nav ul li {
+                                list-style: none;
+                                padding: 0px 6px;
+                                border: 2px solid black;
+                                margin: 0px 02px 0 54px;
+                                border-radius: 8px;
+                                cursor: pointer;
+                                font-size: 19px;
+                            }
+                            .searchbox {
+                                width: 160px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:740px) and (min-width: 500px) {
+                            .card-cont {
+                                grid-template-columns: auto auto;
+                            }
+                            .first-cont h2 {
+                                margin-top: 180px;
+                            }
+                            .sub-cont h3 {
+                                font-size: 30px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:500px) and (min-width: 300px) {
+                            .card-cont {
+                                grid-template-columns: auto;
+                            }
+                            .body {
+                                width: 100%;
+                            }
+                            .logo {
+                                height: 59px;
+                                padding: 8px;
+                                cursor: pointer;
+                                border-radius: 56px;
+                                position: relative;
+                                right: 144px;
+                            }
+                            .navbar {
+                                display: grid;
+                                height: auto;
+                                width: 107%;
+                                place-items: center;
+                                background-image: url(/CSS/img/index.jpg);
+                                background-size: cover;
+                            }
+                            header nav ul li {
+                                padding: 0 5px;
+                                font-size: 15px;
+                            }
+                            .searchbox {
+                                height: 35px;
+                                outline: none;
+                                border: 1px solid black;
+                                border-radius: 8px;
+                                padding: 13px 11px;
+                                font-weight: bold;
+                                font-size: 16px;
+                                margin: 22px 0 18px 0px;
+                                position: revert;
+                            }
+                            .first-cont h2 {
+                                font-size: 32px;
+                                text-align: center;
+                                text-transform: uppercase;
+                                text-shadow: 4px 2px 6px #6588f2;
+                                color: #000;
+                            }
+                            .sub-cont h3 {
+                                border: 2px solid rgb(0, 0, 0);
+                                margin-bottom: 35px;
+                                font-size: 19px;
+                                font-weight: 600;
+                                border-radius: 125px;
+                                padding: 6px 50px;
+                                width: 91%;
+                                text-align: center;
+                                color: black;
+                                text-decoration: underline;
+                            }
+                            .sub-cont {
+                                padding: 22px 80px;
+                            }
+                            .sub-cont p input {
+                                margin-bottom: 28px;
+                                font-size: 20px;
+                                padding: 5px 45px;
+                                width: 61%;
+                                position: inherit;
+                            }
+                            .second-cont {
+                                background-repeat: repeat-y;
+                            }
+                            .first-cont {
+                                height: 502px;
+                            }
+                            footer {
+                                font-size: 16pxa;
+                            }
+                        }
