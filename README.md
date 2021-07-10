@@ -1,4 +1,4 @@
 # Note-Taking-WebApp
 
 
-You can access this site on https://nishant063.github.io/Note-Taking-WebApp/ this url 
+Make your own notes at https://nishant063.github.io/Note-Taking-WebApp/ 
